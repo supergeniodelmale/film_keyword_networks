@@ -1,5 +1,6 @@
 ## Analyzing Film Markets with Keywords Networks
 
+<pre>
 '''
 project_name/
 ├── data/
@@ -17,3 +18,4 @@ project_name/
 └── requirements.txt
 
 '''
+</pre>
