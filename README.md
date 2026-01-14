@@ -1,4 +1,4 @@
-# Analyzing Film Markets with Keywords Networks
+# Analyzing Film Markets with Keyword Networks
 
 <pre>
 film_keyword_networks/
