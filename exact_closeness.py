@@ -61,7 +61,8 @@ def load_and_filter_data(csv_file):
     dprint(f"Loaded in {time.time() - t0:.2f}s")
     return df
 
- BUILD MULTIGRAPH
+# ------------------------------------------------------------------
+# BUILD MULTIGRAPH
 def build_multigraph(df):
     t0 = time.time()
     edge_data = {}
@@ -168,3 +169,4 @@ if __name__ == "__main__":
     result_df.to_csv(output_file, index=False)
     dprint(f"Results saved to {output_file}")
     dprint("Done.")
+
