@@ -8,7 +8,7 @@ tqdm
 </pre>
 
 A requirements.txt file is available:
-</pre>
+<pre>
 pip install -r requirements.txt
 </pre>
 
