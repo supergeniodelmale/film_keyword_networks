@@ -9,7 +9,7 @@ tqdm
 
 A requirements.txt file is available:
 <pre>
-pip install -r requirements.txt
+```pip install -r requirements.txt```
 </pre>
 
 ## 1) Data & Results
