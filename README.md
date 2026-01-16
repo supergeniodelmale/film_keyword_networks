@@ -49,7 +49,7 @@ film_keyword_networks/
 Look at `README.md` in folder `centralities_over_time`
 
 ## 4) Opportunity Gain
-- `get_opp_gain_heatmap.py` plots opp. gain heatmap based on `closeness_all_metrics/exact_closeness_all_metrics_movies_2000_2025.csv`.
+`get_opp_gain_heatmap.py` plots opp. gain heatmap based on `closeness_all_metrics/exact_closeness_all_metrics_movies_2000_2025.csv`. \\
 Look also at `README.md` in folder `closeness_all_metrics`
 
 ## 5) Significance Testing
