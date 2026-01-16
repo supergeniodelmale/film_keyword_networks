@@ -1,4 +1,4 @@
-- `exact_closeness_folds.py` computes exact closeness centralities on files in `folds`.
+- `exact_closeness_folds.py` computes exact closeness centralities on files in `folds` and returns results in `co`, `vote_count`, `vote_average` and `revenue` folders.
 - `rank_slope.py` ranks by mean slope and outputs `*_slope_sorted.py`
 - `plot_evolution.py` plots the top5/worst5 keyword centrality rank evolutions.
 - `plot_keyword.py` plots the keyword centrality rank evolutions of specific keywords.
