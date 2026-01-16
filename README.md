@@ -50,12 +50,12 @@ Look at `README.md` in folder `centralities_over_time`
 
 ## 4) Opportunity Gain
 `get_opp_gain_heatmap.py` plots opp. gain heatmap based on `closeness_all_metrics/exact_closeness_all_metrics_movies_2000_2025.csv`. \
-\
+
 Look also at `README.md` in folder `closeness_all_metrics`
 
 ## 5) Significance Testing
 Z-score and p-values are in `significance_testing`.
-\
+
 - `bipartite_significance.py` runs significance testing on `movies_2000_2025.csv` and `closeness_all_metrics/exact_closeness_all_metrics_movies_2000_2025.csv`. (choose parameters inside).
 - `plot_p_value.py` plots the p-value distribution of `significance_testing/*_significance.py` (choose parameters inside).
 
