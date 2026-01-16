@@ -6,6 +6,7 @@ Learning from Networks 2025/2026 - Final Project
 igraph
 seaborn
 tqdm
+numpy
 </pre>
 
 A requirements.txt file is available:
