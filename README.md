@@ -1,4 +1,5 @@
 # Analyzing Film Markets with Keyword Networks
+Learning from Networks 2025/2026 - Final Project
 
 ## 0) Requirements
 <pre>
@@ -41,13 +42,18 @@ film_keyword_networks/
 ## 2) Centralities
 - `exact_closeness.py` builds multigraph and computes exact closeness centralities on `movies_2000_2025.csv` and outputs `closeness_all_metrics/exact_closeness_all_metrics_movies_2000_2025.csv`.
 - `exact_betweenness.py` builds multigraph and computes exact betweenness centralities on `movies_2000_2025.csv` and outputs `betweenness_all_metrics/exact_betweenness_all_metrics_movies_2000_2025.csv`.
+- `get_all_rankings_heatmap.py` plots heatmap based on `betweenness_all_metrics/exact_betweenness_all_metrics_movies_2000_2025.csv` and `closeness_all_metrics/exact_closeness_all_metrics_movies_2000_2025.csv`.
 
 ## 3) Time Evolution of Centralities
 Look at `README.md` in folder `centralities_over_time`
 
 ## 4) Opportunity Gain
-Look at `README.md` in folder `closeness_all_metrics`
+- `get_opp_gain_heatmap.py` plots opp. gain heatmap based on `closeness_all_metrics/exact_closeness_all_metrics_movies_2000_2025.csv`.
+Look also at `README.md` in folder `closeness_all_metrics`
 
 ## 5) Significance Testing
 - `bipartite_significance.py` runs significance testing on `movies_2000_2025.csv` and `closeness_all_metrics/exact_closeness_all_metrics_movies_2000_2025.csv`. (choose parameters inside).
 - `plot_p_value.py` plots the p-value distribution of `significance_testing/*_significance.py` (choose parameters inside).
+
+## 6) Plots
+All in folder `plots`.
