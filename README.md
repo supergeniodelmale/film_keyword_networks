@@ -38,8 +38,15 @@ film_keyword_networks/
 </pre>
 
 
-## 2) Usage
+## 2) Usage for Centralities
 - `exact_closeness.py` builds multigraph and computes exact closeness centralities on `movies_2000_2025.csv` and outputs `closeness_all_metrics/exact_closeness_all_metrics_movies_2000_2025.csv`.
 - `exact_betweenness.py` builds multigraph and computes exact betweenness centralities on `movies_2000_2025.csv` and outputs `betweenness_all_metrics/exact_betweenness_all_metrics_movies_2000_2025.csv`.
+
+## 3) Usage for Time Evolution of Centralities
+Look at `README.md` in folder `centralities_over_time`
+
+## 4) Usage for Opportunity Gain
+
+## 5) Usage for Significance Testing
 - `bipartite_significance.py` runs significance testing on `movies_2000_2025.csv` and `closeness_all_metrics/exact_closeness_all_metrics_movies_2000_2025.csv`. (choose parameters inside).
 - `plot_p_value.py` plots the p-value distribution of `significance_testing/*_significance.py` (choose parameters inside).
